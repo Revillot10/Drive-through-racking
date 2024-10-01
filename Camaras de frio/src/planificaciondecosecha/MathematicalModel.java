@@ -27,20 +27,20 @@ public class MathematicalModel {
     protected IloLinearNumExpr fo2;
     protected IloLinearNumExpr fo;
     private int I; //Listo
-    private int B;
-    private int T;
-    private int P;
-    private int S;
+    private int B; //Listo
+    private int T; //Listo
+    private int P; //Listo
+    private int S; //Listo
     private int [] ID;
-    private int K;
-    private int [][][][] PsiL;
-    private int [][][][] PsiR;
-    private int [][][][] RL;
-    private int [][][][] RR;
-    private int [][] varFi;
-    private int [][] Omega;
-    private int [] A;
-    private int [] D;
+    private int K; //Listo
+    private int [][][][] PsiL; //Listo
+    private int [][][][] PsiR; //Listo
+    private int [][][][] RL; //Listo
+    private int [][][][] RR; //Listo
+    private int [][] varFi; //Listo
+    private int [][] Omega; //Listo
+    private int [] A; //Listo
+    private int [] D; //Listo
     private int [][][][] X;
     
     private IloNumVar [][][][][] x;
